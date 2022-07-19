@@ -1,0 +1,98 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+/* common styles  */
+.top-playears {
+    margin-bottom: 30px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+    margin-top: 21px;
+}
+
+hr {
+    border: 1px solid #d1d1d1;
+}
+
+/* Top players  */
+.section-title {
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 3px;
+
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player-name {
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+/* Top Blog section  */
+.top-blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+
+.blog {
+    display: flex;
+
+}
+
+.thumbnail img {
+    width: 224px;
+    height: 127px;
+}
+
+.blog-info {
+    margin-left: 16px;
+
+
+}
+
+.blog-title {
+    width: 164px;
+    height: 68px;
+
+}
+
+.blog-info p a {
+    text-decoration: none;
+}
+
+/* Latest course section  */
+.course-banner img {
+    width: 224px;
+    height: 104px;
+    grid-column-g grid-ga
+}
